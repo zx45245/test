@@ -17,6 +17,6 @@ public class WxTokenUtil {
 		HttpClient client = HttpClientBuilder.create().build();
 		HttpGet get = new HttpGet(GETTOKENURL);
 		String result = EntityUtils.toString(client.execute(get).getEntity(),"utf-8");
-		System.err.println(result);
+//		System.err.println(result);
 	}
 }
